@@ -1,0 +1,8 @@
+This program allows to easily set the fan speed with `setfan speed`.
+Speed can be from 0 (off) to 7 (max) and `auto`.
+ 
+If the speed is set to 0, the CPU temperature is monitored and the fan speed is set to auto if temperture exceeds 70° for 10 seconds.
+
+Requires libsensors
+
+Hint: Use sticky bit to automatically run as root
